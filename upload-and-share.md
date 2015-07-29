@@ -2,13 +2,13 @@
 
 上传与分享
 
-如果你再在和团队一起协作，或者只是想将近期版本的原型存储在网络上，就会需要使用到云服务。云服务可以上传原型的近期版本到你的 Pixate 账号上。从云服务那，你可以分享，移动，复制你的原型。这也是一种保护特定版本的一种方法。
+如果你在和团队一起协作，或者只是想将近期版本的原型存储在网络上，就会需要使用到云服务。云服务可以上传原型的近期版本到你的 Pixate 账号上。在云端，你可以分享，移动，复制你的原型。这也是一种保护原型特定版本的一种方法。
 
 If you're working with a collaborative team or you just want to store a current copy of your prototype online, you'll need to import it to the cloud. This process takes the current version of your prototype and uploads it to your Pixate account. From there, you can share, move and duplicate the prototype. This is also a way to keep specific versions of your prototype safe.
 
 ## How to import to the cloud
 
-如何上传到云
+如何上传到云端
 
 首先你要确定你是否有云服务的账号。如果没有，你可以在[这里](https://app.pixate.com/signup)创建一个。
 
@@ -28,7 +28,7 @@ Back in Studio, click the **Upload** button again and you'll be prompted to sele
 
 如何分享
 
-如果想为你上传的原型生成一个分享链接，要确保在上传之前已经将分享选项勾上。
+如果想为上传的原型生成一个分享链接，要确保在上传之前已经将分享选项勾上。
 
 If you want to generate a share URL for the prototype you're uploading, make sure to mark the option and click the Upload button.
 

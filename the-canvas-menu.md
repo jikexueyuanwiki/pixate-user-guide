@@ -1,12 +1,12 @@
-#The Canvas Menu
+# The Canvas Menu
 
 画布菜单
 
-画布菜单（在画布顶端找到）拥有基础的工具和原型的信息。
+画布菜单（在画布顶端找到）有基础的工具和原型的信息。
 
 The canvas menu (found at the top of the canvas) holds basic tools and info for your prototype.
 
-##Name
+## Name
 
 命名
 
@@ -16,7 +16,7 @@ Rename your prototype by double clicking on the current name.
 
 ![](images/the-canvas-menu1.png)
 
-##Device
+## Device
 
 设备
 
@@ -26,17 +26,17 @@ Clicking on the device will allow you to either choose another device or enter c
 
 ![](images/the-canvas-menu2.png)
 
-##Undo/Redo
+## Undo/Redo
 
-撤销/重做
+撤销和重做
 
-运行撤销重做最近 20 个操作。
+可以撤销重做最近 20 个操作。
 
 Undo or redo the last 20 actions with these buttons.
 
 ![](images/the-canvas-menu3.png)
 
-##Merge
+## Merge
 
 合并
 

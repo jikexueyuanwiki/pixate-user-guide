@@ -44,7 +44,7 @@ Change this value to rotate the layer. The layer rotates from its center and is 
 
 缩放
 
-修改后可以改变图层的缩放比例。会等比例地增加高度和宽度，并反映在要素上。默认是 1 倍缩放大小。
+修改后可以改变图层的缩放比例。会等比例地增加高度和宽度。默认是 1 倍缩放大小。
 
 Change this value to increase or decrease the scale of the layer. This increases height and width equally and is represented in factors. 1x is the asset's default scale.
 
@@ -52,7 +52,7 @@ Change this value to increase or decrease the scale of the layer. This increases
 
 透明度
 
-修改后可以改变图层的透明度。默认是 0% 透明度，完全不透明。
+修改后可以改变图层的透明度，范围从 0% 到 100%。默认是 0% 透明度，完全不透明。
 
 Alter this value or slider to change the opacity of a layer. 0% is transparent and 100% is opaque.
 
@@ -72,7 +72,7 @@ Choose a color tile or enter the RBG value to change the fill color of the layer
 
 Choose an existing asset to fill the layer, by clicking the + button.
 
-##Clipping
+## Clipping
 
 裁剪
 

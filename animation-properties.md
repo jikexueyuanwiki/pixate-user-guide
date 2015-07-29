@@ -14,7 +14,7 @@ Each animation has a different set of properties depending on the interaction an
 
 持续不断到终值
 
-*适用于拖动，滚动，旋转和拧等交互*
+*适用于拖拽，滚动，旋转和捏拉等交互*
 
 *Applies to Drag Position, Scroll Position, Rotation and Pinch interactions*.
 
@@ -22,17 +22,17 @@ Each animation has a different set of properties depending on the interaction an
 
 #### LIMIT BEGIN & END
 
-这选项被限制，一些列交互图层将移动。开始和结束点是必需的。
+此选项设置后，图层中的交互将会进行触发。必须设置起始点和终点。
 
 These options set the limit or a range of the interaction in which the layer will move. The beginning and end points are required.
 
-参考拖动，根据这个动画，在拖动位置时会让你改变图层的边缘。据此，在滚动位置时，可以让你选择滚动的方向：水平和垂直。
+此动画是根据拖拽而设计的，可以指定图层的某条边作为参考，在滚动时，可以选择滚动的方向：水平和垂直。
 
 Basing this animation on Drag Position will let you change which edge of the layer to use as the drag reference. Basing it on Scroll Position lets you pick which scroll direction: horizontal or vertical.
 
 #### MOVE TO
 
-边缘层的下拉变化被用作参考。图层的 x 和 y 字段可以移动的位置如下。
+图层的下拉边被用作参考，X 和 Y 字段指定了图层应该移动的位置。
 
 The drop down changes which edge of the layer is used as reference. The fields are for the X and Y points the layer should move to.
 
@@ -56,7 +56,7 @@ Top, Vertical Center, Bottom
 
 持续不断的速率
 
-*适用于拖动，滚动，旋转和拧等交互*
+*适用于拖拽，滚动，旋转和捏拉等交互*
 
 *Applies to Drag Position, Scroll Position, Rotation and Pinch interactions*.
 
@@ -64,17 +64,17 @@ Top, Vertical Center, Bottom
 
 #### LIMIT
 
-这些选项被限制，或者一些列交互图层将移动。在滚动区域内，如果想要移动图层，就会使用到。
+此选项设置后，图层中的交互将会进行触发。在滚动区域内，如果想要移动图层，就会使用到。
 
 These options set limits or a range of the interaction in which the layer will move. This would be used if you only want the layer to move within an area of a scroll.
 
-参考拖动，根据这个动画，在拖动位置时会让你改变图层的边缘。据此，在滚动位置时，可以让你选择滚动的方向：水平和垂直。
+此动画是根据拖拽而设计的，可以指定图层的某条边作为参考，在滚动时，可以选择滚动的方向：水平和垂直。
 
 Basing this animation on Drag Position will let you change which edge of the layer to use as the drag reference. Basing it on Scroll Position lets you pick which scroll direction: horizontal or vertical.
 
 #### MOVE
 
-下拉变化允许你改变区域内的用着参考的图层。
+操作下拉列表，允许你修改区域内的参考图层。
 
 This drop down allows you to change the area of the layer you want to use as reference.
 
@@ -110,7 +110,7 @@ This animation mode is the only one that has a field for conditions. The animati
 
 #### MOVE TO
 
-这个选项说明了图层要移动到什么地方。下拉选项被用来改变用做参考的边，字段是 x 和 y。
+这个选项指明了图层要移动到什么地方。图层的下拉边被用作参考，X 和 Y 字段指定了图层应该移动的位置。
 
 These options tell the layer where to move to. The drop down options are used to change the edge used as reference and the fields are for the X and Y positional values.
 
@@ -144,7 +144,7 @@ Setting this will keep the animation from starting.
 
 持续不断到终值
 
-*适用于拖动，滚动，旋转和拧等交互*
+*适用于拖拽，滚动，旋转和捏拉等交互*
 
 *Applies to Drag Position, Scroll Position, Rotation and Pinch interactions*.
 
@@ -152,11 +152,11 @@ Setting this will keep the animation from starting.
 
 #### LIMIT BEGIN & END
 
-这选项被限制，一些列交互图层将移动。开始和结束点是必需的。
+此选项设置后，图层中的交互将会进行触发。必须设置起始点和终点。
 
 These options set the limit or a range of the interaction in which the layer will scale. The beginning and end points are required.
 
-参考拖动，根据这个动画，在拖动位置时会让你改变图层的边缘。据此，在滚动位置时，可以让你选择滚动的方向：水平和垂直。
+此动画是根据拖拽而设计的，可以指定图层的某条边作为参考，在滚动时，可以选择滚动的方向：水平和垂直。
 
 Basing this animation on Drag Position will let you change which edge of the layer to use as the drag reference. Basing it on Scroll Position lets you pick which scroll direction: horizontal or vertical.
 
@@ -188,7 +188,7 @@ This is the scale factor or specific size you want the layer to scale to.
 
 持续不断的速率
 
-*适用于拖动，滚动，旋转和拧等交互*
+*适用于拖拽，滚动，旋转和捏拉等交互*
 
 *Applies to Drag Position, Scroll Position, Rotation and Pinch interactions*.
 
@@ -196,11 +196,11 @@ This is the scale factor or specific size you want the layer to scale to.
 
 #### LIMIT
 
-这些选项被限制，或者一些列交互图层将移动。在滚动区域内，如果想要移动图层，就会使用到。
+此选项设置后，图层中的交互将会进行触发。在滚动区域内，如果想要移动图层，就会使用到。
 
 These options set limits or a range of the interaction in which the layer will scale. This would be used if you only want the layer to scale within an area of a scroll.
 
-参考拖动，根据这个动画，在拖动位置时会让你改变图层的边缘。据此，在滚动位置时，可以让你选择滚动的方向：水平和垂直。
+此动画是根据拖拽而设计的，可以指定图层的某条边作为参考，在滚动时，可以选择滚动的方向：水平和垂直。
 
 Basing this animation on Drag Position will let you change which edge of the layer to use as the drag reference. Basing it on Scroll Position lets you pick which scroll direction: horizontal or vertical.
 
@@ -286,7 +286,7 @@ Setting this will keep the animation from starting.
 
 持续不断到终值
 
-*适用于拖动，滚动，旋转和拧等交互*
+*适用于拖拽，滚动，旋转和捏拉等交互*
 
 *Applies to Drag Position, Scroll Position, Rotation and Pinch interactions*.
 
@@ -294,11 +294,11 @@ Setting this will keep the animation from starting.
 
 #### LIMIT BEGIN & END
 
-这选项被限制，一些列交互图层将移动。开始和结束点是必需的。
+此选项设置后，图层中的交互将会进行触发。必须设置起始点和终点。
 
 These options set the limit or a range of the interaction in which the layer will rotate. The beginning and end points are required.
 
-参考拖动，根据这个动画，在拖动位置时会让你改变图层的边缘。据此，在滚动位置时，可以让你选择滚动的方向：水平和垂直。
+此动画是根据拖拽而设计的，可以指定图层的某条边作为参考，在滚动时，可以选择滚动的方向：水平和垂直。
 
 Basing this animation on Drag Position will let you change which edge of the layer to use as the drag reference. Basing it on Scroll Position lets you pick which scroll direction: horizontal or vertical.
 
@@ -330,7 +330,7 @@ This option is shown when 3D rotation is chosen for the transform style. The dro
 
 持续不断的速率
 
-*适用于拖动，滚动，旋转和拧等交互*
+*适用于拖拽，滚动，旋转和捏拉等交互*
 
 *Applies to Drag Position, Scroll Position, Rotation and Pinch interactions*.
 
@@ -338,11 +338,11 @@ This option is shown when 3D rotation is chosen for the transform style. The dro
 
 #### LIMIT
 
-这些选项被限制，或者一些列交互图层将移动。在滚动区域内，如果想要移动图层，就会使用到。
+此选项设置后，图层中的交互将会进行触发。在滚动区域内，如果想要移动图层，就会使用到。
 
 These options set limits or a range of the interaction in which the layer will rotate. This would be used if you only want the layer to scale within an area of a scroll.
 
-参考拖动，根据这个动画，在拖动位置时会让你改变图层的边缘。据此，在滚动位置时，可以让你选择滚动的方向：水平和垂直。
+此动画是根据拖拽而设计的，可以指定图层的某条边作为参考，在滚动时，可以选择滚动的方向：水平和垂直。
 
 Basing this animation on Drag Position will let you change which edge of the layer to use as the drag reference. Basing it on Scroll Position lets you pick which scroll direction: horizontal or vertical.
 
@@ -440,7 +440,7 @@ This option is shown when 3D rotation is chosen for the transform style. The dro
 
 持续不断到终值
 
-*适用于拖动，滚动，旋转和拧等交互*
+*适用于拖拽，滚动，旋转和捏拉等交互*
 
 *Applies to Drag Position, Scroll Position, Rotation and Pinch interactions*.
 
@@ -448,11 +448,11 @@ This option is shown when 3D rotation is chosen for the transform style. The dro
 
 #### LIMIT BEGIN & END
 
-这选项被限制，一些列交互图层将淡出。开始和结束点是必需的。
+此选项设置后，图层中的交互将会进行触发。必须设置起始点和终点。
 
 These options set the limit or a range of the interaction in which the layer will fade. The beginning and end points are required.
 
-参考拖动，根据这个动画，在拖动位置时会让你改变图层的边缘。据此，在滚动位置时，可以让你选择滚动的方向：水平和垂直。
+此动画是根据拖拽而设计的，可以指定图层的某条边作为参考，在滚动时，可以选择滚动的方向：水平和垂直。
 
 Basing this animation on Drag Position will let you change which edge of the layer to use as the drag reference. Basing it on Scroll Position lets you pick which scroll direction: horizontal or vertical.
 
@@ -466,7 +466,7 @@ This value sets the opacity of the layer. Values should be entered as a percenta
 
 持续不断的速率
 
-*适用于拖动，滚动，旋转和拧等交互*
+*适用于拖拽，滚动，旋转和捏拉等交互*
 
 *Applies to Drag Position, Scroll Position, Rotation and Pinch interactions*.
 
@@ -474,11 +474,11 @@ This value sets the opacity of the layer. Values should be entered as a percenta
 
 #### LIMIT
 
-这些选项被限制，或者一些列交互图层将移动。在滚动区域内，如果想要移动图层，就会使用到。
+此选项设置后，图层中的交互将会进行触发。在滚动区域内，如果想要移动图层，就会使用到。
 
 These options set limits or a range of the interaction in which the layer will rotate. This would be used if you only want the layer to scale within an area of a scroll.
 
-参考拖动，根据这个动画，在拖动位置时会让你改变图层的边缘。据此，在滚动位置时，可以让你选择滚动的方向：水平和垂直。
+此动画是根据拖拽而设计的，可以指定图层的某条边作为参考，在滚动时，可以选择滚动的方向：水平和垂直。
 
 Basing this animation on Drag Position will let you change which edge of the layer to use as the drag reference. Basing it on Scroll Position lets you pick which scroll direction: horizontal or vertical.
 
@@ -633,8 +633,3 @@ Bring to front, Send to back, Place before, Place behind
 从动画开始时，设置延时。
 
 Setting this will keep the animation from starting.
-
-
-
-
-

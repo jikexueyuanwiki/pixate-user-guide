@@ -6,7 +6,7 @@
 
 There are two types of interactions, instant and continuous. Instant interactions use a single gesture and are complete on their own, like Tap. Continuous interactions can be manipulated as long as the user maintains contact with the screen, like Drag.
 
-本章节会温习持续交互的可用属性。在 **Pixate** 中短暂交互没有任何的属性，因为交互执行过程是短暂的。
+本章节会温习持续交互的可用属性。在 **Pixate** 中短暂交互没有任何的属性，因为交互执行过程是瞬时的。
 
 This section will go over the properties available for continuous interactions. Instant interactions don't have any properties in Pixate because they run their course once they're initiated.
 
@@ -18,7 +18,7 @@ This section will go over the properties available for continuous interactions. 
 
 When a user touches a layer with Drag, they can move that layer around while they maintain contact with the screen.
 
-一般地，拖拽模式设置为 **Free**。意思是图层可以以任意方向拖动。
+一般地，拖拽模式设置为 **Free**。意思是图层可以向任意方向拖动。
 
 By default, the Drag is set to **Free**. This means the user can drag the layer in any direction.
 
@@ -50,7 +50,7 @@ Left, Horizontal Center, Right
 
 ### MIN AND MAX POSITION
 
-在区域范围内，会对拖拽进行限制，保持图层不越界。
+在区域范围内，会对拖拽进行限制，确保图层不越界。
 
 These are the positional limits for the drag. This is how you would keep a layer within the confines of an area.
 
@@ -122,7 +122,7 @@ This sets how far the user can scale the layer past the limits. The smaller the 
 
 拖拽滚动
 
-滚动界面允许用户使用手指轻弹或者拖拽内容。当滚动界面超出边界时，就会over-scroll 反弹，这是IOS 的特色。
+滚动界面允许用户使用手指轻弹或者拖拽内容。当滚动界面超出边界时，就会 over-scroll 反弹，这是IOS 的特色。
 
 Scroll lets a user flick or drag a finger to move through content that sits inside the scrollview. iOS features an over-scroll bounce, that centers the content when a users scrolls beyond its bounds.
 
@@ -130,7 +130,7 @@ Scroll lets a user flick or drag a finger to move through content that sits insi
 
 ### PAGING MODE
 
-设置此分页将提前通过多个内容层,在间隔,当用户是卷轴。
+设置此分页将提前存储多个内容层,用户在滚动界面时，就可看到内容层。
 
 Setting this to paging will snap through multiple content layers, in intervals, as the user is scrolls.
 

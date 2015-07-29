@@ -2,7 +2,7 @@
 
 条件
 
-在开始之前，你可以对一个动画值进行检查。通过条件进行设置。这或许是最难学习的部分。一旦你知道这是如何工作的，要搞清这个问题，只要指定一个动画进行分析。
+在开始之前，你可以对一个动画值进行检查。通过条件进行设置。这或许是最难学习的部分。要搞清这个问题，只要指定一个动画进行分析,就可以知道这是如何工作的。
 
 You can give an animations values to check against, before starting. These are set with conditions. This is probably the steepest part of the learning curve. Once you understand how it works, it’s just a matter of figuring out what you need for your specific animation.
 
@@ -16,7 +16,7 @@ Below is an example of a conditional expression and a breakdown of the parts:
 
 ## Layer ID
 
-Layer ID
+图层 ID
 
 条件只会识别图层 id。id 直接联系到图层名字，图层名字改变时会进行更新。取一个简短的图层名字好处很大。
 
@@ -139,13 +139,11 @@ The value of the layer property is checked against this provided value, to see i
 (layer1.x >= 0 and layer1.cx < 113) or (layer2.opacity > 0 and layer2.y == 259)
 ```
 
-请留意，十进制实数必须使用前导零。例如 **0.5** 是合法值，**.5** 是非法值。
+请留意，十进制实数必须使用前导零。例如 **0.5** 是合法值，而 **.5** 是非法值。
 
 Please note, a leading zero must be used for decimal values. For example, **0.5** is a valid value; **.5** is not a valid value.
 
 ## Logical operators
-
-逻辑运算符
 
 逻辑运算符
 
