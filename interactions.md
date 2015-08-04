@@ -41,6 +41,7 @@
 ## 滚动
 
 垂直移动手指或者水平移动手指去滚动目录。  
+
 *请注意，滚动反弹只支持 iOS 设备。Android 设备不能显示滚动反弹*
 
 ![image](https://raw.githubusercontent.com/ClearChan/pixate-user-guide/master/images/interactions7.gif)
