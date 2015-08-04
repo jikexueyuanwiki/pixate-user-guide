@@ -1,9 +1,5 @@
 # 连接到你的设备
 
-[OS X]()
-
-[Windows]()
-
 为了看到你正在创建的东西，你需要连接你的设备到 Studio。Android 和 iOS 设备的连接有一些不同，但都需要 Pixate 移动应用。在继续下面的步骤之前，下载并安装
 [Android](https://play.google.com/store/apps/details?id=com.pixate.pixate&hl=en) 或 [iOS](https://itunes.apple.com/us/app/pixate/id883304734?mt=8) 客户端。
 
@@ -34,9 +30,6 @@
 
 ![image](https://raw.githubusercontent.com/ClearChan/pixate-user-guide/master/images/connect-devices4.png)
 
-[回到顶部]()
-
-
 ### IP ADDRESS/PORT
 
 **iOS** - WiFi 和蓝牙必须开启，设备和计算机必须连接到同一网络中。
@@ -63,11 +56,9 @@
 
 ![image](https://raw.githubusercontent.com/ClearChan/pixate-user-guide/master/images/connect-devices9.png)
 
-[回到顶部]()
-
 ### USB TETHERING-ANDROID ONLY
 
-*请注意，这个方法需要第三方的 USB 驱动程序的安装。你需要启用你设备上的网络共享，在进行下一步骤之前。这个能在 **Settings > Wireless and Networks > More > Tethering and Hotspots** 找到。*
+_请注意，这个方法需要第三方的 USB 驱动程序的安装。你需要启用你设备上的网络共享，在进行下一步骤之前。这个能在 **Settings > Wireless and Networks > More > Tethering and Hotspots** 找到。_
 
 1.安装 [this USB driver](http://www.makeuseof.com/tag/configure-android-usb-tethering-mac-os-x/) 允许 Android 网络共享。按照所有指示安装。
 
@@ -89,9 +80,6 @@
 
 ![image](https://raw.githubusercontent.com/ClearChan/pixate-user-guide/master/images/connect-devices13.png)
 
-[回到顶部]()
-
-
 ### BLUETOOTH - ANDROID ONLY
 
 *请注意，在进行下面这些步骤之前你需要使用蓝牙配对你的计算机和设备。*
@@ -111,8 +99,6 @@
 当设备连接上时，你会看到手机图标变绿了。不连接设备时，点击垃圾桶图标。
 
 ![image](https://raw.githubusercontent.com/ClearChan/pixate-user-guide/master/images/connect-devices17.png)
-
-[回到顶部]()
 
 ## 连接到 Windows 
 
@@ -141,6 +127,4 @@
 当设备连接上时，你会看到手机图标变绿了。不连接设备时，点击垃圾桶图标。
 
 ![image](https://raw.githubusercontent.com/ClearChan/pixate-user-guide/master/images/connect-devices9.png)
-
-[回到顶部]()
 
