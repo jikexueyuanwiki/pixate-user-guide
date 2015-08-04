@@ -20,7 +20,7 @@
 
 ![image](https://raw.githubusercontent.com/ClearChan/pixate-user-guide/master/images/animations3.gif)
 
-## 渐淡
+## 渐变
 
 改变图层的透明度。
 
