@@ -1,6 +1,6 @@
 # Actions
 
-在 Studio中，Actions 是自动化脚本。action 可以与 layer 相配合来制作一整套的 UI 组件或者 behavior。Pixate 提供了一些列默认的 action 来供您使用。但是你可以自行创建你自己的 action，或者去 [Pixate Community](htp://community.pixate.com/c/actions) 找到分享出来的好用的 action。
+在 Studio中，Actions 是自动化脚本。action 可以与 layer 相配合来制作一整套的 UI 组件或者行为操作。Pixate 提供了一些列默认的 action 来供您使用。但是你可以自行创建你自己的 action，或者去 [Pixate Community](htp://community.pixate.com/c/actions) 找到分享出来的好用的 action。
 
 *现在 action 仍然处于测试版本，使用测试版本来尝试 action，或者使用原型的拷贝。*
 
@@ -30,7 +30,7 @@ action 编辑器可以创建和编辑你的 action。
 
 - **Undo** 按钮，撤销最后执行的 action。
 
-    用于测试的好方式，可以先执行一个 action，查看效果，撤销 action，进行对比。在必要时进行执行和撤销。
+    *用于测试的好方式，可以先执行一个 action，查看效果，撤销 action，进行对比。在必要时进行执行和撤销。*
 
 - **Run** 按钮，执行一个完整的 action。
 
@@ -40,12 +40,12 @@ action 编辑器可以创建和编辑你的 action。
 
 ### 拓展 action
 
-如果在我们的社区中找到了一个 action，并想将其添加到你的列表中，同复制脚本代码到编辑器中，便可轻而易举地创建一个新的 action 。
+如果在我们的社区中找到了一个 action，并想将其添加到你的列表中，复制脚本代码到编辑器中，便可轻而易举地创建一个新的 action。
 
 ![](images/actions4.gif)
 
-向您账户中添加脚本的时候要注意，确保脚本代码的来源是可信，在执行脚本之前要仔细检查。
+向您账户中添加脚本的时候要注意，确保脚本代码的来源是可信的，在执行脚本之前要仔细检查。
 
 ## 创建自己的 actions
 
-action 是完全可定制的，所以完全可以编辑一个存在的 action或者新建一个。action 使用的是 JavaScript 的子集进行编写，如果你之前使用过 JavaScript，你会感觉很亲切。可以到我们的 [API docs](http://www.pixate.com/docs/actions/#introduction) 获取更多信息。
+action 是完全可定制的，所以完全可以编辑一个存在的 action 或者新建一个。action 使用的是 JavaScript 的子集进行编写，如果你之前使用过 JavaScript，你会感觉很亲切。可以到我们的 [API docs](http://www.pixate.com/docs/actions/#introduction) 获取更多信息。

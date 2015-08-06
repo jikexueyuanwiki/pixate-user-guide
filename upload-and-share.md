@@ -10,7 +10,7 @@
 
 ![](images/upload-and-share1.png)
 
-返回到 Studio，再点击 **Upload** 按钮，它会提示选择你要上传的工程。如果账号里还没有工程的话，你可以点击 **Add Project** 链接创建一个。在创建新工程后，记得刷新 Studio 的工程列表
+返回到 Studio，再点击 **Upload** 按钮，它会提示选择你要上传的工程。如果账号里还没有工程的话，你可以点击 **Add Project** 链接创建一个。在创建新工程后，记得刷新 Studio 的工程列表。
 
 ## 如何分享
 
