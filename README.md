@@ -1,2 +1,22 @@
-# pixate-user-guide
-翻译: http://help.pixate.com/knowledgebase/articles/461798-1-introduction
+# Pixate 使用指南
+
+Pixate 是新一代的手机交互设计工具，目的是帮助设计师脱离代码就可以创建复杂的动画和交互。当设计的时候，平台将产生 100% 原生手机原型，让你获得更好的体验。
+
+本指南是 Pixate 官网 [Pixate User Guide](http://help.pixate.com/knowledgebase/articles/461798-1-introduction) 的中文翻译版本。
+
+## 适用人群
+
+本教程是给那些想详细了解如何使用 Pixate 原型交互工具的设计人员编写的。
+
+## 学习前提
+
+在学习本教程之前，你需要对手机交互设计相关的知识有一定了解。
+
+## 你将学会
+
++ Pixate Studio 各模块使用方式
++ 原型的分享和发布
+
+|更新日期    |更新内容
+|----------|--------------------
+|2015-08-09| Pixate 使用指南
